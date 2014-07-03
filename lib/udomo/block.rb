@@ -11,6 +11,7 @@ require_relative 'block/section'
 
 # Tables
 require_relative 'block/cell'
+require_relative 'block/column'
 require_relative 'block/row'
 require_relative 'block/table'
 
