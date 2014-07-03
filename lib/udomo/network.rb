@@ -9,6 +9,12 @@ module Udomo
       return "#{prefix}#{@genid}#{suffix}".to_sym
     end
     
+    # Resets the Id generator. This should probably only be used for unit 
+    # testing.
+    def self.reset_id_generator
+      @genid = 0
+    end
+    
     
     
   end

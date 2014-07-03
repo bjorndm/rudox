@@ -7,6 +7,7 @@ end
 
 describe Udomo::Network do
   it "can generate a unique id" do 
+    Udomo::Network.reset_id_generator
     id1 = Udomo::Network.generate_id
     id2 = Udomo::Network.generate_id
     id3 = Udomo::Network.generate_id
